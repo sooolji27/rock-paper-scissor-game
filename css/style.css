@@ -1,0 +1,48 @@
+* {
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    background: #a8e6cf;
+ }
+
+
+ .rpsGame {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 2.5rem;
+    top: 12px;
+ }
+
+ 
+ .btn {
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #a8e6cf;
+ }
+ 
+ .text {
+    display: block;
+    padding: 15px 40px;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    background: #f7f39a;
+    transform: translateY(-6px);
+    transition: transform ease 0.1s;
+ }
+ 
+ .btn:active .text {
+    transform: translateY(-2px);
+ }
+ 

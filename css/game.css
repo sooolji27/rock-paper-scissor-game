@@ -1,0 +1,118 @@
+
+*{
+	box-sizing: border-box;
+	background: #a8e6cf;
+	color: black;
+}
+
+.game{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+footer{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.title{
+  text-align: center;
+	font-size: 4rem;
+	z-index: 2;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.score{
+	display: flex;
+	width: 30vw;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 70px;
+	z-index: 1;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+/* Score */
+.p-count,.c-count{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.options{
+	display: flex;
+	width: 50vw;
+	justify-content: space-evenly;
+	margin-top: 2rem;
+}
+
+
+.rock, .paper, .scissor{
+	padding: 0.8rem;
+	width: 100px;
+	border-radius: 10px;
+	background: #f7f39a;
+	outline: none;
+	border-color: none;
+	border: none;
+	cursor: pointer;
+}
+
+.move{
+	font-size: 2rem;
+	font-weight: bold;
+  margin-top: 20px;
+}
+
+.movesleft{
+  margin-top: 20px;
+}
+
+.result{
+	margin-top: 20px;
+	font-size: 1.2rem;
+}
+
+#reloadButton {
+  padding: 7px 10px;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+#reloadButton:hover {
+  background-color: none;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 612px)
+{ 
+	.title{
+		text-align: center;
+	}
+	.score{
+		position: absolute;
+		top: 200px;
+		width: 100vw;
+	}
+	.options{
+		width: 100vw;
+	}
+}

@@ -1,0 +1,64 @@
+* {
+    font-family: 'Roboto', sans-serif;   
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    background: #a8e6cf;
+}
+
+.name {
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: larger;
+    font-size: 2.5rem;
+ }
+
+ input[type=text] {
+    padding: 8px; /* Espacio interno alrededor del texto */
+    border: 2px solid #ddd; /* Borde alrededor del campo de entrada */
+    border-radius: 2px; /* Bordes redondeados */
+    width: 100%; /* Ancho del campo de entrada */
+    box-sizing: border-box; /* Hace que el padding y el borde se incluyan en el ancho total */
+    margin-top: 7px; /* Espacio encima del campo de entrada */
+    margin-bottom: 12px; /* Espacio debajo del campo de entrada */
+    resize: vertical; /* Solo permite cambiar el tamaño verticalmente */
+   }
+   
+   /* Cambia el aspecto del campo de entrada cuando está enfocado */
+   input[type=text]:focus {
+    background-color: #f6f6f6; /* Color de fondo cuando está enfocado */
+    border: 2px solid #555; /* Borde cuando está enfocado */
+   }
+   
+
+button {
+    margin-bottom: 15px; 
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #a8e6cf;
+ }
+ 
+ p {
+    display: block;
+    padding: 10px 45px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: #f7f39a;
+    transform: translateY(-6px);
+    transition: transform ease 0.1s;
+ }
+ 
+button:active .text {
+    transform: translateY(-2px);
+ }
+ 

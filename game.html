@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <title>A little game!</title>
+</head>
+<body>
+    <header>
+        <!-- Adding the game title -->
+        <div class="title">Rock Paper Scissor</div>
+    </header>
+
+    <section class="game">
+
+		<div class="score"> 
+			<div class="playerScore">
+				<h2>Player</h2>
+				<p class="p-count count">0</p>
+
+			</div>	 
+			<div class="computerScore">
+				<h2>Computer</h2>
+				<p class="c-count count">0</p>
+
+			</div>
+		</div>
+        
+        <div class="move">Choose your move!</div>
+
+        <div class="movesleft">Moves Left: 5 </div>
+         
+        <div class="options">
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissor">Scissors</button>    
+        </div>
+        <div class="result"></div>
+        <button id="reloadButton"> &#8635;</button>
+    </section>
+      
+    <footer>
+        <!-- Displaying the copyright notice -->
+        Copyright &copy; Solji Charón Peña
+    </footer>
+</body>
+<script type="module" src="js/script.js"></script>
+</html>
